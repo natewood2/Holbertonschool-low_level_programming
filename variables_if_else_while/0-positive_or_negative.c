@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - main
- * Return 0
+ * main - will assign a random number to the varible n.
+ * Return: 0
  */
 int main(void)
 {
