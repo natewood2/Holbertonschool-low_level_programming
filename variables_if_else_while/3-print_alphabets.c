@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - prints alphabet in upper and lower case
- * Return 0
- *
+ * main - prints in lower case
+ * Description: "prints the alphabet in lowercase, and then in uppercase."
+ * Return: 0
  */
 int main(void)
 {
 	char e = 'a';
 	char f = 'A';
-	
+
 	while (e <= 'z')
 	{
 		putchar(e);
@@ -21,5 +21,5 @@ int main(void)
 		f++;
 	}
 	putchar('\n');
-return (0);
+	return (0);
 }
