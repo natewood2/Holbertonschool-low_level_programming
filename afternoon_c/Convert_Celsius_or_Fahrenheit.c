@@ -9,6 +9,10 @@ double ftoc(double fahrenheit)
 {
 	return (fahrenheit - 32) * 5/9;
 }
+double ftok(double fahrenheit)
+{
+	return (fahrenheit - 32) * 5/9 + 273.15;
+}
 
 int main(void)
 {
@@ -35,9 +39,16 @@ int main(void)
 		result = ftoc(temperature);
 		printf("%.2lf degrees in Fahrenheit is %.2lf degrees in Celsius.", temperature, result);
 	}
+	else if (decide == 3)
+	{
+		printf("Temperature in Fahrenheit: ");
+		scanf("%lf", &temperature);
+		result = ftok(temperature);
+		printf("%.2lf degrees in Fahrenheit is %.2lf degrees in Kelvins.", temperature, result);
+	}
 	else
 	{
 		printf("Wrong, you literally had 1 or 2 to decide on... now 1 or 2?\n");
 	}
 	return (0);
-}	
+}
