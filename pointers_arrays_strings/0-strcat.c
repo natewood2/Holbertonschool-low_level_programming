@@ -18,8 +18,8 @@ char *_strcat(char *dest, char *src)
 		dest[len1 + i] = src[i];
 	}
 
-	dest[len1 + i] = '\n';
-	
-	return dest;
+	dest[len1 + i] = '\0';
+
+	return (dest);
 
 }
