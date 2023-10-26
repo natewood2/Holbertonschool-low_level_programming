@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 /**
+ * struct dog - a new type data reprsenting new data
  * @name: name of dog
  * @owner: owners name
  * @age: age of owner
@@ -19,4 +20,4 @@ struct dog
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
-#endif	
+#endif
