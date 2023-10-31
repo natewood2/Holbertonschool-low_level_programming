@@ -8,9 +8,9 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
 /**
- * struct format - data of format
- * @op: format
- * @f: function
+ * struct printTypeStruct - data of format
+ * @type: format
+ * @printer: function
  */
 
 typedef struct printTypeStruct
