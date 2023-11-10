@@ -4,6 +4,7 @@
  * add_nodeint - adding node to the front
  * @head: head of the node
  * @n: where data will be stored
+ * Return: the new_node
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
