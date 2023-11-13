@@ -3,7 +3,7 @@
  * read_textfile - a function that reads a text file and prints it
  * @filename: the name of the file created
  * @letters: letter in the text
- * Return: Bytes written
+ * Return: Bytes written!
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
